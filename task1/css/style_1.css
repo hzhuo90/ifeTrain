@@ -1,0 +1,74 @@
+/* 样式初始化 */
+html,
+body,
+ul,
+p,
+table,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+input,
+section,
+article {
+      margin: 0;
+      padding: 0;
+      font-family: 'Microsoft yahei';
+}
+
+article {
+      padding-left: 6px;
+}
+
+ul {
+      list-style: none;
+}
+
+input {
+      border: none;
+      outline: none;
+}
+
+h1 {
+      margin: 24px 0;
+      font-size: 24px;
+}
+
+h2 {
+      font-size: 20px;
+}
+
+p {
+      margin: 24px 0;
+}
+
+span.ti_key {
+      font-weight: 600;
+      margin-right: 10px;
+}
+
+span.con_val {
+      margin-right: 30px;
+}
+
+.item {
+      margin: 24px 0;
+}
+
+p.title {
+      font-weight: bold;
+}
+
+.item p {
+      font-size: 14px;
+      margin: 0 0 4px;
+}
