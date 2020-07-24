@@ -30,6 +30,31 @@ article {
     padding-left: 6px;
 }
 
+article>div:nth-child(1) {
+    background-color: #888;
+    color: #fff;
+}
+
+section {
+    border-bottom: 2px solid #eee;
+    overflow: hidden;
+}
+
+section h2 {
+    background-color: #ddd;
+    float: left;
+    width: 100px;
+    text-align: center;
+    padding: 24px;
+}
+
+section p {
+    float: left;
+    line-height: 27px;
+    width: 72%;
+    padding-left: 10px;
+}
+
 ul {
     list-style: none;
 }
@@ -40,16 +65,11 @@ input {
 }
 
 h1 {
-    margin: 24px 0;
-    font-size: 24px;
+    padding: 24px;
 }
 
 h2 {
     font-size: 20px;
-}
-
-p {
-    margin: 24px 0;
 }
 
 .ti_key {
@@ -62,7 +82,11 @@ p {
 }
 
 .item {
-    margin: 24px 0;
+    overflow: hidden;
+}
+
+.item:nth-child(1) {
+    margin-left: 148px;
 }
 
 .title {
@@ -71,5 +95,12 @@ p {
 
 .item p {
     font-size: 14px;
-    margin: 0 0 4px;
+}
+
+.item .title {
+    width: 6%;
+}
+
+.item .desc {
+    width: 92%;
 }
