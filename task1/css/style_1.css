@@ -56,8 +56,7 @@ p {
     font-weight: 600;
     margin-right: 10px;
 }
-
-.con_val {
+.ti_key + span{
     margin-right: 30px;
 }
 
