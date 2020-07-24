@@ -104,6 +104,11 @@ footer{
     margin-top:20px;
 }
 .row div{
-    padding:75px;
-    border:1px solid #777777;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 75px;
+    border: 1px solid #777777;
+    margin: 0 10px;
+    display: flex;
 }
